@@ -1,0 +1,76 @@
+.m-input{
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    justify-content: center;
+}
+.m-input input{
+    font-size: 12px;
+    height: var(--input-height);
+    color: inherit;
+    position: relative;
+    border: 1px solid rgb(193, 193, 193);
+    box-sizing: border-box;
+    height: 24px;
+    padding: 3px 5px 3px;
+    width: 100%;
+    background-color: #fff;
+}
+.m-input input:focus{
+    outline: none;
+    border: 1px solid #0072BC;
+}
+::placeholder{
+    font-style: italic;
+    font-size: 12px;
+    color: #BBBBBB;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.m-input-number input{
+    text-align: right;
+}
+
+
+.m-input-icon input{
+    width: 240px;
+    height: 32px;
+    padding: 6px 40px 6px 10px;
+}
+.m-input .m-icon-input{
+    cursor: pointer;
+    position: absolute;
+    right: 12px;
+}
+
+.m-input .invalid{
+    border: 1px solid red;
+}
+.icon-err{
+    width: 24px;
+    height: 24px;
+    display: none;
+    position: relative;
+}
+.icon-invalid{
+    display: block !important;
+}
+.msg-err{
+    position: absolute;
+    top: 24px;
+    left: 28px;
+    background-color: #d7e9f4;
+    border-radius: 4px;
+    z-index: 9999;
+    display: none;
+    width: 230px;
+}
+.msg-err p{
+    padding: 4px;
+}
+.icon-err:hover .msg-err{
+    display: flex;
+}
+

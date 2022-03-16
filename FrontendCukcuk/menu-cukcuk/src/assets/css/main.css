@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-transform: none;
+    text-decoration: none;
+}
+body{
+    font-size: 13px;
+    font-family: Tahoma;
+    color: #000000;
+}
+.m-title{
+    font-size: 22px;
+}
+.m-subtitle{
+    font-size: 18px;
+    color: #848484;
+}
+
+.text-align-left{
+    text-align: left;
+}
+
+.text-align-right{
+    text-align: right;
+}
+.text-align-center{
+    text-align: center;
+}
+
+
+.wrap{
+    display: flex;
+}
+
+#header{
+    width: 100%;
+}
+#content{
+    width: 100%;
+}
+@import url('../css/base/dialog.css');
+@import url('../css/base/table.css');

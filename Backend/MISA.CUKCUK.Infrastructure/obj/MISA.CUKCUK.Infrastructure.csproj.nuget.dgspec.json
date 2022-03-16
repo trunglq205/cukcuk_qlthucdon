@@ -1,0 +1,138 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Misa.Web2021_12\\gd2\\CukCuk\\Backend\\MISA.CUKCUK.Infrastructure\\MISA.CUKCUK.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "E:\\Misa.Web2021_12\\gd2\\CukCuk\\Backend\\MISA.CUKCUK.Core\\MISA.CUKCUK.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Misa.Web2021_12\\gd2\\CukCuk\\Backend\\MISA.CUKCUK.Core\\MISA.CUKCUK.Core.csproj",
+        "projectName": "MISA.CUKCUK.Core",
+        "projectPath": "E:\\Misa.Web2021_12\\gd2\\CukCuk\\Backend\\MISA.CUKCUK.Core\\MISA.CUKCUK.Core.csproj",
+        "packagesPath": "C:\\Users\\HeLo\\.nuget\\packages\\",
+        "outputPath": "E:\\Misa.Web2021_12\\gd2\\CukCuk\\Backend\\MISA.CUKCUK.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\HeLo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Misa.Web2021_12\\gd2\\CukCuk\\Backend\\MISA.CUKCUK.Infrastructure\\MISA.CUKCUK.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Misa.Web2021_12\\gd2\\CukCuk\\Backend\\MISA.CUKCUK.Infrastructure\\MISA.CUKCUK.Infrastructure.csproj",
+        "projectName": "MISA.CUKCUK.Infrastructure",
+        "projectPath": "E:\\Misa.Web2021_12\\gd2\\CukCuk\\Backend\\MISA.CUKCUK.Infrastructure\\MISA.CUKCUK.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\HeLo\\.nuget\\packages\\",
+        "outputPath": "E:\\Misa.Web2021_12\\gd2\\CukCuk\\Backend\\MISA.CUKCUK.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\HeLo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\Misa.Web2021_12\\gd2\\CukCuk\\Backend\\MISA.CUKCUK.Core\\MISA.CUKCUK.Core.csproj": {
+                "projectPath": "E:\\Misa.Web2021_12\\gd2\\CukCuk\\Backend\\MISA.CUKCUK.Core\\MISA.CUKCUK.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.1.7, )"
+            },
+            "SqlKata": {
+              "target": "Package",
+              "version": "[2.3.7, )"
+            },
+            "SqlKata.Execution": {
+              "target": "Package",
+              "version": "[2.3.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,63 @@
+.header{
+    height: 55px;
+    background-color: rgb(9, 115, 185) !important;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.header-left, .header-right{
+    display: flex;
+}
+.icon_logo{
+    display: flex;
+    width: 232px;
+    height: 100%;
+    align-items: center;
+}
+.header-left-icon{
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    margin: 4px 0 0 12px;
+    background-image: url('../../imgs/icon-left-header.png');
+}
+.header-left-logo{
+    width: 100%;
+    height: 30px;
+    margin-left: 8px;
+    background-image: url('../../imgs/logo-text.png');
+    background-repeat: no-repeat;
+    background-position: 2px center;
+}
+
+.icon-earth{
+    align-items: center;
+    line-height: 55px;
+    padding: 0 16px;
+}
+.icon-support{
+    background-image: url('../../imgs/ic_support.svg')!important;
+    background-repeat: no-repeat;
+    background-size: 65px;
+    top: 0!important;
+    height: 55px!important;
+    width: 65px!important;
+    background-color: transparent;
+}
+.account{
+    display: flex;
+    align-items: center;
+    padding: 0 24px 0 36px;
+}
+.img-avatar{
+    height: 28px;
+    width: 28px;
+    background-image: url('../../imgs/EmployeeImage.png');
+    background-color: white;
+    border-radius: 50%;
+    background-position: 2px;
+}
+.account-name{
+    color: white;
+    margin-left: 4px;
+}

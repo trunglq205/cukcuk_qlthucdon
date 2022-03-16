@@ -1,0 +1,79 @@
+.page-menus {
+  width: calc(100% - 230px);
+}
+.page-title {
+  display: flex;
+  justify-content: space-between;
+  height: 48px;
+  align-items: flex-end;
+  margin: 0 8px;
+}
+.page-content {
+  margin: 12px 8px;
+}
+.toolbar {
+  background-color: #ededed !important;
+  height: 28px;
+  border: 1px solid rgb(193, 193, 193);
+  display: flex;
+  border-bottom: none !important;
+}
+.toolbar-item {
+  padding: 2px;
+  margin-right: 8px;
+}
+
+/* css table */
+.table-menus {
+  overflow: auto;
+  border: 1px solid rgb(193, 193, 193);
+  height: calc(100vh - 181px);
+  width: 100%;
+}
+.th-text {
+  height: 28px;
+  line-height: 28px;
+}
+.th-filter {
+  height: 26px;
+  display: flex;
+  margin: 0 2px;
+}
+/* filter */
+.btn-filter {
+  height: 24px;
+  width: 24px;
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+}
+.btn-filter:focus {
+  border-color: #0072bc;
+}
+.btn-filter:hover {
+  border-color: #eb7728;
+}
+
+/* pagination */
+.pagination {
+  height: 25px;
+  border: 1px solid rgb(193, 193, 193);
+  border-top: none;
+  display: flex;
+  justify-content: space-between;
+}
+.pagination-left {
+  display: flex;
+  height: 25px;
+  line-height: 25px;
+}
+.pagination-left div {
+  margin-right: 4px;
+}
+.txtTotal {
+  height: 25px;
+  line-height: 25px;
+  padding: 0 12px;
+  align-items: center;
+}
+
+@import url("../base/multiselect.css");

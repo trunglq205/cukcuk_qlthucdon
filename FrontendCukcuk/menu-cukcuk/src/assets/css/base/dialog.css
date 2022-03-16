@@ -1,0 +1,48 @@
+.m-dialog {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99;
+}
+
+.dialog-content {
+  background-color: #0072bc !important;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  border-radius: 4px;
+}
+.dialog-title{
+  color: #fff;
+  padding: 8px 0 4px 8px;
+}
+.dialog-inner{
+  background-color: #fff;
+  margin: 5px;
+}
+.dialog-body{
+  display: flex;
+}
+.dialog-icon{
+  margin: 12px;
+}
+.dialog-text {
+  overflow: auto;
+  width: 310px;
+  margin: 12px 24px 12px 0px;
+}
+.dialog-footer{
+  display: flex;
+  padding: 4px;
+}
+.dialog-footer button{
+  margin: 2px 4px;
+  background-color: #f2f2f2;
+}
+.dialog-footer-confirm{
+  justify-content: end;
+}

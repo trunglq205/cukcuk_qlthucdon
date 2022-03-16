@@ -1,0 +1,26 @@
+#loading {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1001;
+}
+.loading-container{
+    background-color: #e5e5e5;
+    padding: 8px;
+    border-radius: 4px;
+    text-align: center;
+}
+/* #loading .spinner__icon {
+    animation: rotate 1s linear infinite;
+  }
+  @keyframes rotate {
+    from {
+      transform: rotateZ(0);
+    }
+    to {
+      transform: rotateZ(360deg);
+    }
+  } */

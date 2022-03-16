@@ -1,0 +1,29 @@
+
+.btn-filter {
+    height: 24px;
+    width: 24px;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+  }
+  .btn-filter:focus {
+    border-color: #0072bc;
+  }
+  .btn-filter:hover {
+    border-color: #eb7728;
+  }
+  .context{
+      background-color: #ccc;
+      position: absolute;
+      width: 120px;
+      box-shadow: 0 -8px 34px 0 rgb(0 0 0 / 5%);
+  }
+  .context ul{
+      list-style: none;
+  }
+  .context ul li{
+      padding: 4px;
+  }
+  .context ul li:hover{
+      cursor: pointer;
+      background: #e4ebf5;
+  }

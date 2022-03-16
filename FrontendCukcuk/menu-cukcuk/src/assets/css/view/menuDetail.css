@@ -1,0 +1,179 @@
+.form-detail{
+    border-radius: 4px;
+}
+.form-detail-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+.tab-ft{
+   background-color: #fff;
+   margin: 0 4px 4px;
+}
+.header-title{
+    color: #fff;
+}
+.tab-form .v-tab{
+    font-size: 13px;
+    font-family: Tahoma;
+    text-transform: none;
+    letter-spacing: normal;
+    padding: 0 8px;
+}
+.tab-form .v-tab--active{
+    color: #0072bc!important;
+}
+.tab-form .v-tab:not(.v-tab--active){
+    color: black !important;
+}
+
+/* form */
+.form-info{
+    display: flex;
+    width: 733px;
+    height: 455px;
+    margin: 8px;
+}
+.form-hobby{
+    width: 733px;
+    height: 455px;
+    margin: 8px;
+}
+.info-left{
+    display: flex;
+}
+.label-form div{
+    width: 125px;
+    height: 24px;
+    margin: 8px 0;
+    line-height: 24px;
+}
+.input-form .form-ip{
+    width: 125px;
+    height: 24px;
+    margin: 8px 0;
+    width: 380px;
+}
+.ip-unit{
+    width: 100%;
+}
+.ip4{
+    display: flex;
+}
+.ip5, .ip6{
+    width: 115px !important;
+}
+.ip8{
+    padding-top: 30px;
+}
+.ip9{
+    padding-top: 28px;
+}
+.txtarea{
+    width: 380px;
+    border: 1px solid rgb(193, 193, 193);
+    resize: none;
+    padding: 3px 5px;
+}
+.txtarea:focus{
+    border: 1px solid #0072BC;
+}
+.field-required{
+    color: red;
+}
+/* avatar */
+.img-form{
+    padding-left: 8px;
+}
+.fieldset-img{
+    border: 1px solid #afafaf;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    padding-block-start: 0.35em;
+    padding-inline-start: 0.75em;
+    padding-inline-end: 0.75em;
+    padding-block-end: 0.625em;
+    min-inline-size: min-content;
+    width: 215px;
+}
+
+.text-avt{
+    width: 160px;
+    text-align: center;
+    font-size: 12px;
+}
+.text-avt div{
+    font-weight: bold;
+}
+
+
+.btn-avt .mdi-close-thick::before{
+    color: red !important;  
+}
+.btn-avt button{
+    height: 25px;
+    width: 27px;
+    border: 1px solid #ccc;
+    background-color: #fcfcfc!important;
+    margin: 0 0px 4px 8px;
+}
+.btn-avt button:hover{
+    border: 1px solid #0072BC;
+}
+.btn-avt button:active{
+    background-color: #E4F2EA !important;
+}
+.iconSelectImg{
+    position: absolute;
+    top: 29px;
+    background-color: #fff;
+    color: #0072BC;
+    font-size: 12px;
+}
+/* footer */
+.form-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-right{
+    display: flex;
+}
+.footer-left button{
+    margin: 0 0 8px 8px;
+}
+.footer-right button{
+    margin: 0 8px 8px 0;
+}
+
+/* hobby */
+.tb-hobby{
+    height: 225px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    overflow: visible;
+    z-index: 9999;
+}
+.tb-hobby table thead th{
+    padding: 7px 10px;
+    width: 50%;
+}
+.tb-hobby table tbody td{
+    padding: 0 !important;
+}
+.description{
+    display: flex;
+}
+.description div{
+    padding: 8px 8px 0 0;
+    font-style: italic;
+}
+.btn-table-hobby{
+    display: flex;
+    margin-top: 4px;
+}
+.btn-table-hobby button{
+    margin-left: 4px;
+}
+
+@import url("../base/multiselect.css");
+@import url("../base/input.css");

@@ -1,0 +1,89 @@
+.m-icon {
+  background-image: url("../../imgs/IconSprite.png");
+  cursor: pointer;
+}
+
+.mi-14 {
+  width: 14px;
+  height: 14px;
+}
+.mi-16 {
+  width: 16px;
+  height: 16px;
+}
+.mi-24 {
+  width: 24px;
+  height: 24px;
+}
+.mi-32 {
+  width: 32px;
+  height: 32px;
+}
+.mi-48 {
+  width: 48px;
+  height: 48px;
+}
+
+.mi-fileNew{
+    background-position: 0-2648px!important;
+}
+.mi-viewEmail{
+    background-image: url('../../imgs/viewEmail.png') !important;
+}
+.mi-cloned{
+    background-position: 0-1888px!important;
+}
+.mi-edit{
+    background-image: url('../../imgs/Edit16.png') !important;
+}
+.mi-delete{
+    background-position: 0-2680px!important;
+}
+.mi-refresh{
+    background-position: 0-2584px!important;
+}
+.mi-firstPage{
+  background-image: url('../../imgs/page-first.png') !important;
+}
+.mi-prevPage{
+  background-image: url('../../imgs/page-prev.png') !important;
+}
+.mi-nextPage{
+  background-image: url('../../imgs/page-next.png') !important;
+}
+.mi-lastPage{
+  background-image: url('../../imgs/page-last.png') !important;
+}
+.mi-refreshPage{
+  background-image: url('../../imgs/refresh.png') !important;
+}
+.mi-close{
+  background-image: url('../../imgs/tool-sprites.png') !important;
+  background-position: 0 0;
+}
+.mi-selectIconMenu{
+  background-image: url('../../imgs/selectIconMenu.png') !important;
+  background-position: center;
+}
+.mi-help{
+  background-position: 0-1600px !important;
+}
+.mi-save{
+  background-image: url('../../imgs/Save16.png') !important;
+}
+.mi-saveAdd{
+  background-image: url('../../imgs/SaveAdd16.png') !important;
+}
+.mi-disable{
+  background-image: url('../../imgs/Disable16.png') !important;
+}
+.mi-info{
+  background-image: url('../../imgs/icon-info32-2.png') !important;
+}
+.mi-question{
+  background-image: url('../../imgs/icon-question.png') !important;
+}
+.mi-exclamation{
+  margin: 4px;
+  background-image: url('../../imgs/exclamation.png') !important;
+}
